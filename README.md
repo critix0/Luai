@@ -1,4 +1,4 @@
-# **KeeAdmin**
+# **Luai**
 **Interpreter written in lua.**
 
 ## **Examples**
@@ -9,7 +9,7 @@ Luai supports numbers, booleans, and strings. You can declare variables and prin
 local luai = require(path.to.module)
 
 luai([[
-  let my_var = "hello world"
-  println(my_var)
+  local my_var = "hello world"
+  print(my_var)
 ]])
 ```
